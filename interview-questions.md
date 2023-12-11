@@ -51,3 +51,4 @@ Research and define the following terms. Hint: use the syllabus!
 // React Props are a mechanism for passing data from a parent component to a child component. Props allow you to customize a child component with values or functions provided by their parent components
 3. JSX:
 // Is a syntax extension for JavaScript, allows you to write HTML like code into your JavaScript files making it easier to describe the structure of UI components
+// test text
