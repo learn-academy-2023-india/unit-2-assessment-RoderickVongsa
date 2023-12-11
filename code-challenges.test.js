@@ -29,8 +29,14 @@ const numbersArray2 = [24, 27, 30, 33, 36]
 
 
 const object1 = { number: 15 }
-
-
+// fixed missing code from mistake earlier
+for(let i= 1; i <= object1.number; i++){
+    if (i === object1.number && i % 3 === 0) {
+        console.log(`${object1.number} is divisible by three`);
+    } else if (i % 3 === 0) {
+        console.log(i)
+    }
+}
 // Expected output: "15 is divisible by three"
 const object2 = { number: 0 }
 // Using loop for this  problem
