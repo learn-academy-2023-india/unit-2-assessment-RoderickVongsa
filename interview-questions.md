@@ -11,7 +11,7 @@ Type your initials here to confirm you read the instructions:
 1. What is the difference between a parameter and an argument? 
 
 Your answer: 
-// The Difference bewteen a parameter and an argument is that an argument can pass to a function 
+// The Difference between a parameter and an argument is that an argument can pass to a function 
 // For the parameter, a value can pass through it
 
 Researched answer:
