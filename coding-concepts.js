@@ -69,3 +69,4 @@ console.log(learnStudent)
 // Output would be Learn student: 'George', cohort: 'India', year: 2023
 // b) Verify and explain:
 // Learn { student: 'George', cohort: 'India', year: 2023} because 'learnStudent is an operator for Learn. Learn holds properties which is contained within it. 
+// test text
