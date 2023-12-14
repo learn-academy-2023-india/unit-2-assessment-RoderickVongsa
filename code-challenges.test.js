@@ -26,8 +26,10 @@ const numbersArray2 = [24, 27, 30, 33, 36]
 // --------------------1) Create a function that takes a object as an argument and decides if the number inside it is evenly divisible by three or not.
 
 // a) Create a test with expect statements for each of the variables provided.
-
-
+// tried to solve but still couldnt get answer
+describe("multiplyByThree", () => {
+    it("is a function that takes in an array of numbers and returns an array with all the numbers multiplied by 3", () => {
+     
 const object1 = { number: 15 }
 // fixed missing code from mistake earlier
 for(let i= 1; i <= object1.number; i++){
@@ -58,7 +60,9 @@ for(let i= 1; i <= object3.number; i++){
         console.log(i)
     }
 }
-
+expect(multiplyByThree(object1)).toEqual([18, 21, 24, 27, 30])
+expect(multiplyByThree(object2)).toEqual([0, 0, 0, 0, 0])
+expect(multiplyByThree(object3)).toEqual([72, 81, 90, 99, 108])
 // Expected output: "-7 is not divisible by three"
 
 // b) Create the function that makes the test pass.
@@ -70,7 +74,11 @@ for(let i= 1; i <= object3.number; i++){
 // --------------------2) Create a function that takes in an array of words and returns an array with all the words capitalized.
 
 // a) Create a test with expect statements for each of the variables provided.
-
+// attempted to test but still haven't graps the concept
+// will review to understand how test works
+describe("capitalizeFirstLetter", () => {
+    it("is a function that takes in an array of words and returns an array with all the firstlettercapitalize", () => {
+     
 const randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
 // Expected output: ["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"]
 const randomNouns2 = ["temperature", "database", "chopsticks", "mango"]
